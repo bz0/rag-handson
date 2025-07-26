@@ -6,3 +6,7 @@ services:
     working_dir: /app
     volumes:
       - ./:/app
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LANGSMITH_TRACING=true
+      - LANGSMITH_API_KEY=${LANGSMITH_API_KEY}

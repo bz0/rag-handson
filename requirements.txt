@@ -1,6 +1,9 @@
-langchain-core==0.3.10
-langchain-openai==0.2.0
-langchain-community==0.3.0
+langchain-core==0.3.72
+langchain-openai==0.3.28
+langchain-community==0.3.27
 GitPython==3.1.43
 langchain-chroma==0.1.4
 tavily-python==0.5.0
+sentence-transformers==2.2.2
+torch==2.0.1
+langsmith==0.4.8
