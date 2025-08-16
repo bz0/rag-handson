@@ -14,7 +14,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI
 
 # LangSmithトレーシング用のインポート（ドキュメント推奨方式）
-from langsmith import traceable
+５６
 from langsmith.wrappers import wrap_openai
 from openai import OpenAI
 import os
